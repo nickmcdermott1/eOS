@@ -1,0 +1,8 @@
+[build]
+target = "x86_64-eos"
+
+[target.x86_64-eos]
+runner = "bootimage runner"
+
+[unstable]
+build-std = ["core", "compiler_builtins"]
